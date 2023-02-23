@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Save your books online!">
+    	<meta name="keywords" content="book, library, library card">
+
+		<title>Bookworm</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="hero">
+			<section class="searchBar">
+				<h1>BookWorm</h1>
+				<section class="searchIsbn">
+					<input id="input" type="text" name="" placeholder="ISBN">
+					<button id="search" type="button" name="button">Search</button>
+				</section>
+			</section>
+			<section class="container">
+				<section class="myBook">
+					<img id="cover" src="img/cover.png" alt="">
+					<section class="bookInfo">
+						<section class="titleAuthor">
+							<h2 id="title">Title</h2>
+							<h4>by: <a id="author">author</a></h4>
+						</section>
+						<section class="saveDeleteBtns">
+							<select class="myBooks" placeholder="myBooks">
+								<option value ="" placeholder="myBooks"></option>
+							</select>
+							<button id="save" class="savepopup popup">Save<span class="popuptext" id="mySavePopup">Save Successful</span></button>
+							<button id="delete" class="deletePopUp popup">Delete<span class="popuptext" id="myDeletePopup">Delete Successful</span></button>	
+						</section>
+					</section>	
+				</section>
+				<section>
+					<h3 id="related">Related Works</h3>
+				</section>	
+			</section>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+
+<!-- Test ISBN: 
+9780140328721
+9781260463132
+3822858609
+0760723265
+1555951902
+-->
